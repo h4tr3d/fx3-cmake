@@ -35,7 +35,7 @@ After that you can use next new commands:
     restrictions for me. This command configure new target to use SDK libs.
     Also, generator for img file is configured.
 
-Next files except to be present in `CMAKE_SOURCE_DIRECTORY`:
+Next files expected to be present in `CMAKE_SOURCE_DIRECTORY`:
 - In all cases:
   - *cyfx_gcc_startup.S*    - startup assembler, can be overriden via `FX3_CORE_ASM_SRC` varible before
                             *fx3.cmake* including
